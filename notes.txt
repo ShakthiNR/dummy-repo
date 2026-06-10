@@ -1,2 +1,3 @@
 Test file
 # new comment
+add = 1 + 2
