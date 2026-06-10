@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function CustomDropdown() {
+export default function testing() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
 
@@ -14,12 +14,12 @@ export default function CustomDropdown() {
   };
 
   return (
-    <div style={{ position: 'relative', width: '200px', fontFamily: 'sans-serif' }}>
+    <div style={{ position: '', width: '', fontFamily: 'how are' }}>
       {/* Dropdown Button */}
       <button 
         onClick={toggleDropdown} 
         style={{
-          width: '100%', 
+          width: '10%', 
           padding: '10px', 
           textAlign: 'left', 
           background: '#fff', 
